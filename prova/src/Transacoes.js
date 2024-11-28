@@ -13,7 +13,7 @@ function App() {
       </header>
       </div>
       <div className="App-body">
-        <p className="App-phome">Home</p>
+        <p className="App-phome">Transações</p>
         <p className="App-p">Total Entradas: 6350</p>
         <p className="App-p">Total Saídas: 4140</p>
         <p className="App-p">Saldo Atual: 2210</p>
