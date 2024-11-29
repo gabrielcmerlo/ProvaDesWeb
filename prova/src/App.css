@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+      animation: App-logo-spin infinite 20s linear;
   }
 }
 
@@ -21,6 +21,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-tabela {
+  text-align: center;
+  margin-left: 630px;
 }
 
 .App-link {
@@ -40,7 +45,11 @@
   padding-left: 400px;
 }
 
-.footer{
+.App-colunas {
+  padding-left: 100px;
+}
+
+.footer {
   background-color: #282c34;
   display: flex;
   flex-direction: column;
@@ -52,9 +61,10 @@
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+      transform: rotate(0deg);
   }
+
   to {
-    transform: rotate(360deg);
+      transform: rotate(360deg);
   }
 }
